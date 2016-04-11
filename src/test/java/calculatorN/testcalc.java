@@ -43,5 +43,16 @@ public class testcalc {
 		
 		//fail("Not yet implemented");
 	}
+	@Test
+	public void testinc() 
+	{
+		calculatorN cal = new calculatorN();
+		cal.inc(10);
+		cal.inc(10);
+		cal.inc(10);
+		assertEquals(30,cal.getResult());
+		
+		//fail("Not yet implemented");
+	}
 
 }

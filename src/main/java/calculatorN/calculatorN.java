@@ -23,6 +23,11 @@ public class calculatorN {
 			result = a/b;
 	}
 	
+	public void inc(int s)
+	{
+		result += s;
+	}
+	
 	public int getResult()
 	{
 		return result;
