@@ -27,5 +27,32 @@ public class testcalc {
 		
 		//fail("Not yet implemented");
 	}
+	public void testmulti() 
+	{
+		calculatorN cal = new calculatorN();
+		cal.multi(10,20);
+		assertEquals(200,cal.getResult());
+	}
+	@Test
+	public void testdiv() 
+	{
+		calculatorN cal = new calculatorN();
+		cal.div(10,2);
+		assertEquals(5,cal.getResult());
+		
+		
+		//fail("Not yet implemented");
+	}
+	@Test
+	public void testinc() 
+	{
+		calculatorN cal = new calculatorN();
+		cal.inc(10);
+		cal.inc(10);
+		cal.inc(10);
+		assertEquals(30,cal.getResult());
+		
+		//fail("Not yet implemented");
+	}
 
 }
