@@ -8,6 +8,10 @@ public class calculatorN {
 	{
 		result = a+b;
 	}
+	public void sub(int a, int b)
+	{
+		result = a-b;
+	}
 	
 	public int getResult()
 	{

@@ -7,13 +7,25 @@ import org.junit.Test;
 public class testcalc {
 
 	@Test
-	public void test() 
+	public void testadd() 
 	{
 		calculatorN cal = new calculatorN();
 		cal.add(10,20);
 		assertEquals(30,cal.getResult());
 		
-		fail("Not yet implemented");
+		
+		//fail("Not yet implemented");
+	}
+	
+	@Test
+	public void testsub() 
+	{
+		calculatorN cal = new calculatorN();
+		cal.sub(10,20);
+		assertEquals(-10,cal.getResult());
+		
+		
+		//fail("Not yet implemented");
 	}
 
 }
