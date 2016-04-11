@@ -21,8 +21,6 @@ public class calculatorN {
 	{
 		if(b != 0) // 분모가 0인경우
 			result = a/b;
-		else
-			System.out.println("분모가 0이다");
 	}
 	
 	public int getResult()
