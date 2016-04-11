@@ -19,7 +19,7 @@ public class calculatorN {
 	
 	public void div(int a, int b)
 	{
-		if(b != 0)
+		if(b != 0) // 분모가 0인경우
 			result = a/b;
 		else
 			System.out.println("분모가 0이다");
