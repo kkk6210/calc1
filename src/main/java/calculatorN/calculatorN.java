@@ -12,6 +12,10 @@ public class calculatorN {
 	{
 		result = a-b;
 	}
+	public void multi(int a, int b)
+	{
+		result = a*b;
+	}
 	
 	public int getResult()
 	{
