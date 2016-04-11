@@ -32,6 +32,13 @@ public class testcalc {
 		calculatorN cal = new calculatorN();
 		cal.multi(10,20);
 		assertEquals(200,cal.getResult());
+	}
+	@Test
+	public void testdiv() 
+	{
+		calculatorN cal = new calculatorN();
+		cal.div(10,2);
+		assertEquals(5,cal.getResult());
 		
 		
 		//fail("Not yet implemented");
