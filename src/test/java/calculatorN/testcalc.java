@@ -27,5 +27,15 @@ public class testcalc {
 		
 		//fail("Not yet implemented");
 	}
+	@Test
+	public void testdiv() 
+	{
+		calculatorN cal = new calculatorN();
+		cal.div(10,2);
+		assertEquals(5,cal.getResult());
+		
+		
+		//fail("Not yet implemented");
+	}
 
 }
